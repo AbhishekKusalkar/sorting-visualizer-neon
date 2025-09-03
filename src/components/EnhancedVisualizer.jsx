@@ -323,7 +323,7 @@ export default function EnhancedVisualizer() {
       </div>
 
       <footer className="footer">
-        <span>Built By Abhishek Kusalkar ✨ •</span>
+        <span>Built By Abhishek & Oman ✨ •</span>
       </footer>
     </div>
   );
