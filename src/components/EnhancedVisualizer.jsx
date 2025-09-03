@@ -15,7 +15,7 @@ export default function EnhancedVisualizer() {
   const [isSorted, setIsSorted] = useState(false);
   
   const containerRef = useRef(null);
-  const originalArrayRef = useRef([]); // This never changes until new array is generated
+  const originalArrayRef = useRef([]); 
 
   // Generate new random array
   const generateArray = () => {

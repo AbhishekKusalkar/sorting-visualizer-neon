@@ -1,7 +1,7 @@
 // Merge Sort
 export function getMergeSortAnimationsNew(arr) {
-  const originalArray = arr.slice(); // Keep original untouched
-  const workingArray = arr.slice(); // Work on this copy
+  const originalArray = arr.slice(); 
+  const workingArray = arr.slice(); 
   const animations = [];
 
   function mergeSort(start, end) {
@@ -34,12 +34,10 @@ export function getMergeSortAnimationsNew(arr) {
         j++;
       }
       
-      // Revert the compare animation
       animations.push({ type: "revert", indices: [leftIdx, rightIdx] });
       k++;
     }
 
-    // Handle remaining elements
     while (i < left.length) {
       animations.push({ type: "overwrite", index: k, value: left[i] });
       workingArray[k] = left[i];
