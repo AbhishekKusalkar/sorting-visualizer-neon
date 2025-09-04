@@ -5,7 +5,6 @@ This project lets you explore how different sorting algorithms work step by step
 
 🔗 **Live Demo**: [Sorting Visualizer Neon](http://sorting-visualizer-neon-sooty.vercel.app/)
 
----
 
 ## ✨ Features
 - 🎨 Neon-inspired modern UI
@@ -17,33 +16,6 @@ This project lets you explore how different sorting algorithms work step by step
   - Insertion Sort
   - Quick Sort
 
----
-
-
-## 🛠️ Installation
-
-Follow these steps to run the project locally:
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/sorting-visualizer-neon.git
-   cd sorting-visualizer-neon
-
-
-Install dependencies
-
-npm install
-
-
-Run the development server
-
-npm start
-
-
-Open your browser and go to http://localhost:3000
-
-
-Deployment
 
 This project is deployed using Vercel
 .
